@@ -42,7 +42,7 @@ function App() {
   if(tours.length === 0){
     return(
       <main>
-        <h4>no one left</h4>
+        <h4 className="title">no one left</h4>
         <button onClick={() => fetchTours()}>Refresh</button>
       </main>
     )
